@@ -91,30 +91,6 @@ Dark theme implementation with next-themes integration.
 ### Skills Section
 Interactive skills showcase with animated progress indicators and category organization.
 
-## 🚀 Getting Started
-
-1. **Clone the repository**
-   ```bash
-   git clone https://github.com/BrayanMQ/personal-portfolio-website.git
-   cd personal-portfolio-website
-   ```
-
-2. **Install dependencies**
-   ```bash
-   npm install
-   # or
-   pnpm install
-   ```
-
-3. **Run the development server**
-   ```bash
-   npm run dev
-   # or
-   pnpm dev
-   ```
-
-4. **Open [http://localhost:3000](http://localhost:3000) in your browser**
-
 ## 📱 Responsive Breakpoints
 
 - **Mobile**: `< 768px`
@@ -144,27 +120,9 @@ Language switching persists across sessions and updates all content dynamically.
 - **Sizes**: Responsive scaling (mobile-first approach)
 - **Weights**: 400, 500, 600, 700
 
-## 🔧 Scripts
+## 🌟 Live
 
-```json
-{
-  "dev": "next dev",           // Development server
-  "build": "next build",       // Production build
-  "start": "next start",       // Production server
-  "lint": "next lint"          // ESLint checking
-}
-```
-
-## 📊 Performance Metrics
-
-- **Lighthouse Score**: 95+ (Performance, Accessibility, SEO)
-- **Bundle Size**: Optimized with Next.js automatic code splitting
-- **Image Optimization**: Automatic WebP conversion and lazy loading
-- **Core Web Vitals**: All metrics in green zone
-
-## 🌟 Live Demo
-
-Experience the portfolio live at: [Portfolio URL]
+Experience the portfolio live at: [https://brayan-marin-porfolio.vercel.app/]
 
 ---
 
@@ -180,5 +138,3 @@ This portfolio serves as both a professional showcase and a demonstration of mod
 - **Accessibility**: WCAG compliant components and navigation
 
 ---
-
-*Built with ❤️ using Next.js, TypeScript, and Tailwind CSS*
