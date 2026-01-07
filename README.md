@@ -120,7 +120,7 @@ Language switching persists across sessions and updates all content dynamically.
 - **Sizes**: Responsive scaling (mobile-first approach)
 - **Weights**: 400, 500, 600, 700
 
-## 🌟 Live
+## 🌟 Live version
 
 Experience the portfolio live at: [https://brayan-marin-porfolio.vercel.app/]
 
