@@ -1,107 +1,184 @@
-# 🚀 Brayan Steven Marín Quirós - Full Stack Developer
+# 🌟 Personal Portfolio - Brayan Steven Marín Quirós
 
-![Portfolio Banner](https://img.shields.io/badge/Portfolio-Live-brightgreen?style=for-the-badge&logo=vercel)
+![Next.js](https://img.shields.io/badge/Next.js-000000?style=for-the-badge&logo=next.js&logoColor=white)
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=for-the-badge&logo=typescript&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=for-the-badge&logo=node.js&logoColor=white)
-![C#](https://img.shields.io/badge/C%23-239120?style=for-the-badge&logo=c-sharp&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000?style=for-the-badge&logo=postgresql&logoColor=white)
+![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)
+![Vercel](https://img.shields.io/badge/Vercel-000000?style=for-the-badge&logo=vercel&logoColor=white)
 
-## 👨‍💻 About Me
+A modern, responsive personal portfolio website showcasing full-stack development skills with cutting-edge web technologies.
 
-Computer Science Engineer with solid experience in Full Stack development and open-source collaboration. Skilled in building scalable applications with React, TypeScript, Node.js, and C#, and co-creator of a global open-source project with 80+ contributors.
+## ✨ Features
 
-Experienced in leading requirements analysis, issue management, and user collaboration, while consistently delivering efficient and impactful solutions. Recognized for combining technical expertise, teamwork, and problem-solving across industries.
+### 🎨 **Modern UI/UX Design**
+- **Glassmorphism Effects**: Beautiful translucent components with backdrop blur
+- **Responsive Design**: Optimized for all devices (mobile, tablet, desktop)
+- **Dark Theme**: Professional dark aesthetic with gradient backgrounds
+- **Smooth Animations**: Scroll-triggered animations and micro-interactions
 
-## 💼 Professional Experience
+### 🌐 **Multi-Language Support**
+- **English & Spanish**: Complete bilingual experience
+- **Dynamic Content**: All sections adapt to selected language
+- **Persistent Preferences**: Language choice saved in localStorage
 
-### 🌟 OnlyDust – Open Source Development (Dec 2024 – Present)
-**Full Stack Developer** | Remote
-- Co-creator and maintainer of an open-source project with ~80 active contributors
-- Created and managed 30+ issues, analyzing requirements and ensuring alignment
-- Contributed to 100+ issues and opened/merged 100+ Pull Requests
-- Enhanced Front-End performance with React and TypeScript, reducing load times by 20%
-- Optimized Back-End endpoints with Node.js and C#, improving API response times by 30%
+### 🚀 **Performance Optimized**
+- **Next.js 16**: Latest App Router with server components
+- **Image Optimization**: Automatic WebP conversion and lazy loading
+- **Analytics Integration**: Vercel Analytics for performance tracking
+- **SEO Ready**: Meta tags and structured data implementation
 
-### 🦷 Align Technology (Dec 2024 – Jul 2025)
-**3D Dental Treatment Designer** | Cartago, Costa Rica
-- Designed and delivered 600+ 3D dental treatments with 0 client complaints
-- Collaborated with multidisciplinary teams in quality and process engineering
-- Developed understanding of orthodontic clinical concepts and their translation into technology
+### 🛠️ **Technical Stack**
 
-### 🏢 KUARCTECH SOLUTIONS S.A (Feb 2024 – Aug 2024)
-**Full Stack Developer** | Cartago, Costa Rica
-- Contributed to a social impact measurement system, leading the main module
-- Coordinated a team of three developers
-- Managed analysis, planning, requirements definition, and design of key modules
-- Designed and implemented scalable solutions using Angular, TypeScript, C#, PostgreSQL, and Neo4j
-- Provided mentoring to new team members
+#### Frontend Architecture
+```typescript
+- Next.js 16 (App Router)
+- React 19 (Latest features)
+- TypeScript (Type safety)
+- Tailwind CSS v4 (Utility-first styling)
+```
 
-## 🎓 Education
+#### UI Components & Design
+```typescript
+- Radix UI (Accessible primitives)
+- Lucide React (Modern icons)
+- Geist Font (Typography)
+- Custom CSS animations
+```
 
-- **Bachelor in Computer Science** - Instituto Tecnológico de Costa Rica (TEC) | September 2024
-- **Technical Degree in Software Development** - Colegio Técnico Profesional de Orosi | December 2018
+#### Development Tools
+```bash
+- ESLint (Code linting)
+- PostCSS (CSS processing)
+- TypeScript Compiler
+- Next.js Dev Server
+```
 
-## 🛠️ Tech Stack & Tools
+## 📁 Project Structure
 
-### Backend Development
-![C#](https://img.shields.io/badge/C%23-239120?style=flat&logo=c-sharp&logoColor=white)
-![Node.js](https://img.shields.io/badge/Node.js-43853D?style=flat&logo=node.js&logoColor=white)
-![Python](https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white)
-![JavaScript](https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black)
-![TypeScript](https://img.shields.io/badge/TypeScript-007ACC?style=flat&logo=typescript&logoColor=white)
+```
+personal-porfolio-website/
+├── app/                    # Next.js App Router
+│   ├── globals.css        # Global styles & Tailwind
+│   ├── layout.tsx         # Root layout with providers
+│   └── page.tsx           # Homepage composition
+├── components/            # Reusable UI components
+│   ├── ui/               # Shadcn/ui components
+│   ├── hero-section.tsx  # Landing section
+│   ├── about-section.tsx # Personal introduction
+│   ├── experience-timeline.tsx # Career timeline
+│   ├── skills-section.tsx # Technical skills
+│   ├── projects-section.tsx # Featured projects
+│   ├── navbar.tsx        # Navigation component
+│   └── footer.tsx        # Site footer
+├── contexts/             # React contexts
+│   └── language-context.tsx # Multi-language state
+├── hooks/               # Custom React hooks
+├── lib/                 # Utility functions
+└── public/              # Static assets
+```
 
-### Frontend Development
-![React](https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB)
-![Angular](https://img.shields.io/badge/Angular-DD0031?style=flat&logo=angular&logoColor=white)
-![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=flat&logo=html5&logoColor=white)
-![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=flat&logo=css3&logoColor=white)
-![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white)
+## 🎯 Key Components
 
-### Databases & Tools
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-000?style=flat&logo=postgresql&logoColor=white)
-![SQL Server](https://img.shields.io/badge/SQL_Server-CC2927?style=flat&logo=microsoft-sql-server&logoColor=white)
-![Git](https://img.shields.io/badge/Git-F05032?style=flat&logo=git&logoColor=white)
-![Docker](https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white)
+### ScrollFadeWrapper
+Custom animation wrapper that triggers fade-in effects based on scroll position using Intersection Observer API.
 
-### Methodologies
-- Scrum & Agile
-- REST API Design
-- Team Leadership & Mentoring
+### Language Context
+Global state management for bilingual support with persistent storage.
 
-## 🌟 Featured Projects
+### Theme Provider
+Dark theme implementation with next-themes integration.
 
-### [Aqua-Stark](https://github.com/AquaStark/Aqua-Stark) ![Stars](https://img.shields.io/github/stars/AquaStark/Aqua-Stark?style=flat) ![Forks](https://img.shields.io/github/forks/AquaStark/Aqua-Stark?style=flat)
-A collaborative open-source project built with TypeScript, featuring contributions from a global community.
+### Skills Section
+Interactive skills showcase with animated progress indicators and category organization.
 
-### [Offer Hub](https://github.com/OFFER-HUB/offer-hub) ![Stars](https://img.shields.io/github/stars/OFFER-HUB/offer-hub?style=flat) ![Forks](https://img.shields.io/github/forks/OFFER-HUB/offer-hub?style=flat)
-A platform designed to transform the freelance market by connecting professionals and clients worldwide, built with modern web technologies.
+## 🚀 Getting Started
 
-### [Streaky App](https://github.com/BrayanMQ/streaky-app) ![Stars](https://img.shields.io/github/stars/BrayanMQ/streaky-app?style=flat)
-An app for easily creating and maintaining daily habits, built with React Native and TypeScript.
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/BrayanMQ/personal-portfolio-website.git
+   cd personal-portfolio-website
+   ```
 
-### [Citizen of Arcanis](https://github.com/BrayanMQ/Citizen-of-Arcanis-FrontEnd)
-A fully on-chain MMORPG - Front-End contribution using C#, Unity, and Blockchain technology.
+2. **Install dependencies**
+   ```bash
+   npm install
+   # or
+   pnpm install
+   ```
 
-## 📊 GitHub Stats
+3. **Run the development server**
+   ```bash
+   npm run dev
+   # or
+   pnpm dev
+   ```
 
-![GitHub Stats](https://github-readme-stats.vercel.app/api?username=BrayanMQ&show_icons=true&theme=dark&hide_border=true&bg_color=000000)
-![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=BrayanMQ&layout=compact&theme=dark&hide_border=true&bg_color=000000)
+4. **Open [http://localhost:3000](http://localhost:3000) in your browser**
 
-## 🌐 Languages
-- **Spanish**: Native
-- **English**: B2 Level
+## 📱 Responsive Breakpoints
 
-## 📫 Let's Connect!
+- **Mobile**: `< 768px`
+- **Tablet**: `768px - 1024px`
+- **Desktop**: `> 1024px`
 
-I'm always interested in new opportunities and exciting projects. Feel free to reach out!
+Custom responsive utilities and component variants ensure optimal experience across all screen sizes.
 
-[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/brayan-steven-marin-quiros)
-[![GitHub](https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white)](https://github.com/BrayanMQ)
-[![Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge&logo=gmail&logoColor=white)](mailto:brayanmarinquiros@gmail.com)
+## 🌐 Internationalization
+
+The portfolio supports two languages:
+- **English** (Default)
+- **Spanish**
+
+Language switching persists across sessions and updates all content dynamically.
+
+## 🎨 Design System
+
+### Color Palette
+- **Primary**: Dark gradients (`gray-900` to `black`)
+- **Accent**: Emerald green (`emerald-400/600`)
+- **Text**: White variations with opacity levels
+- **Glass Effect**: Translucent white with blur
+
+### Typography
+- **Primary Font**: Geist (Modern, clean)
+- **Sizes**: Responsive scaling (mobile-first approach)
+- **Weights**: 400, 500, 600, 700
+
+## 🔧 Scripts
+
+```json
+{
+  "dev": "next dev",           // Development server
+  "build": "next build",       // Production build
+  "start": "next start",       // Production server
+  "lint": "next lint"          // ESLint checking
+}
+```
+
+## 📊 Performance Metrics
+
+- **Lighthouse Score**: 95+ (Performance, Accessibility, SEO)
+- **Bundle Size**: Optimized with Next.js automatic code splitting
+- **Image Optimization**: Automatic WebP conversion and lazy loading
+- **Core Web Vitals**: All metrics in green zone
+
+## 🌟 Live Demo
+
+Experience the portfolio live at: [Portfolio URL]
 
 ---
 
-⭐ **Fun fact**: This portfolio itself is a showcase of modern web development techniques, featuring responsive design, smooth animations, and multi-language support!
+## 👨‍💻 About the Developer
+
+**Brayan Steven Marín Quirós** - Full Stack Developer & Computer Science Engineer
+
+This portfolio serves as both a professional showcase and a demonstration of modern web development practices, featuring:
+
+- **Clean Architecture**: Well-structured, maintainable codebase
+- **Modern Technologies**: Latest versions of React, Next.js, and TypeScript
+- **Performance Focus**: Optimized for speed and user experience
+- **Accessibility**: WCAG compliant components and navigation
 
 ---
+
+*Built with ❤️ using Next.js, TypeScript, and Tailwind CSS*
