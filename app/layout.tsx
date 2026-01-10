@@ -57,7 +57,7 @@ export default function RootLayout({
   children: React.ReactNode
 }>) {
   return (
-    <html lang="es" className={`${spaceGrotesk.variable} antialiased`}>
+    <html lang="es" className={`${spaceGrotesk.variable} antialiased`} suppressHydrationWarning>
       <head>
         <link rel="preload" href="/images/profile.jpg" as="image" type="image/jpeg" />
         <link rel="preload" href="/images/background.jpg" as="image" type="image/jpeg" />
