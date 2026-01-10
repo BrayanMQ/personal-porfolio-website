@@ -76,6 +76,14 @@ export function LanguageProvider({ children }: { children: ReactNode }) {
     const savedLanguage = localStorage.getItem("language") as Language
     if (savedLanguage && (savedLanguage === "en" || savedLanguage === "es")) {
       setLanguage(savedLanguage)
+    } else {
+      // Detect browser language
+      const browserLang = navigator.language.split("-")[0]
+      if (browserLang === "en" || browserLang === "es") {
+        setLanguage(browserLang as Language)
+      } else {
+        setLanguage("en") // Default to English
+      }
     }
   }, [])
 
